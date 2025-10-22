@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio - Arantza Lizárraga</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inspiration&family=Epilogue:wght@400;500;600;700&family=Urbanist:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="estilos/styles.css">
+</head>
+<body>
+  <header id="header">
+    <div class="logo">
+      <h1>Arantza Lizárraga</h1>
+    </div>
+    <button class="menu-toggle" aria-label="Abrir menú">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="header-right">
+      <nav class="navbar">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="language-switcher">
+        <div class="language-current">
+          <i class="fas fa-globe"></i>
+          <span>ES</span>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="language-options">
+          <div class="language-option" data-lang="es"><span>Español</span></div>
+          <div class="language-option" data-lang="en"><span>English</span></div>
+          <div class="language-option" data-lang="fr"><span>Français</span></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="inicio" class="section-presentacion">
+    <div class="presentacion-container">
+      <div class="presentacion-foto">
+        <div class="foto-container">
+          <img src="imagenes/perfil.jpg" alt="Arantza Lizárraga" class="foto-perfil">
+        </div>
+      </div>
+      <div class="presentacion-texto">
+        <h2>¡Hola! Soy Arantza Lizárraga</h2>
+        <p>Desarrolladora de software apasionada por el diseño, la tecnología y la creación de experiencias digitales atractivas.</p>
+        <div class="presentacion-acciones">
+          <div class="redes-sociales">
+            <a href="https://www.linkedin.com/in/arantzals" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/arantzals" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+          <a href="imagenes/cv.pdf" target="_blank" class="btn-primario">
+            <i class="fas fa-download"></i> Descargar CV
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre-mi" class="section-sobre-mi">
+    <div class="container">
+      <h2>Sobre mí</h2>
+      <div class="sobre-mi-grid">
+        <div class="formacion card-elegante">
+          <h3><i class="fas fa-graduation-cap"></i> Formación educativa</h3>
+          <p>Universidad Politécnica de Sinaloa — Ingeniería en Tecnologías de la Información y la Comunicación (2023 – 2027)</p>
+          <p>Nivel de inglés: B2</p>
+        </div>
+
+        <div class="experiencia card-elegante">
+          <h3><i class="fas fa-briefcase"></i> Experiencia laboral</h3>
+          <p>RedPetroil — Practicante (noviembre – diciembre 2024)</p>
+          <p>Durante mis prácticas participé en documentación técnica y desarrollo de una página web con aplicación orientada a la estimación de tiempos. Esto me permitió aplicar conocimientos en desarrollo front-end, manejo de datos y documentación técnica.</p>
+        </div>
+
+        <div class="expertise card-elegante">
+          <h3><i class="fas fa-star"></i> Área de expertise</h3>
+          <p>Mi área de expertise es el diseño de interfaces de usuario (UI) y el desarrollo web. Me enfoco en crear interfaces funcionales y visualmente atractivas, cuidando la coherencia y la experiencia del usuario. Manejo herramientas como Figma y Adobe Photoshop, además de lenguajes como HTML, CSS y JavaScript para implementar y adaptar diseños de forma eficiente.</p>
+        </div>
+
+        <div class="habilidades-tecnicas card-elegante">
+          <h3><i class="fas fa-code"></i> Habilidades técnicas</h3>
+          <div class="habilidades-grid">
+            <div class="habilidad-item"><i class="fab fa-figma"></i><span>Figma</span><span class="habilidad-tag diseño">Diseño</span></div>
+            <div class="habilidad-item"><i class="fas fa-crop-alt"></i><span>Photoshop</span><span class="habilidad-tag diseño">Diseño</span></div>
+            <div class="habilidad-item"><i class="fab fa-html5"></i><span>HTML5</span><span class="habilidad-tag lenguaje">Lenguaje</span></div>
+            <div class="habilidad-item"><i class="fab fa-css3-alt"></i><span>CSS3</span><span class="habilidad-tag lenguaje">Lenguaje</span></div>
+            <div class="habilidad-item"><i class="fab fa-js"></i><span>JavaScript</span><span class="habilidad-tag lenguaje">Lenguaje</span></div>
+            <div class="habilidad-item"><i class="fab fa-java"></i><span>Java</span><span class="habilidad-tag lenguaje">Lenguaje</span></div>
+            <div class="habilidad-item"><i class="fas fa-plus"></i><span>C++</span><span class="habilidad-tag lenguaje">Lenguaje</span></div>
+            <div class="habilidad-item"><i class="fas fa-code"></i><span>VS Code</span><span class="habilidad-tag desarrollo">Desarrollo</span></div>
+            <div class="habilidad-item"><i class="fab fa-git-alt"></i><span>Git</span><span class="habilidad-tag desarrollo">Desarrollo</span></div>
+          </div>
+        </div>
+
+        <div class="certificados card-elegante">
+          <h3><i class="fas fa-award"></i> Certificados</h3>
+          <div class="certificados-container">
+            <div class="certificado-item">
+              <img src="imagenes/cisco-logo.png" alt="Cisco Networking Academy">
+              <h4>Introduction to Networks</h4>
+              <p>Certificado otorgado por Cisco Networking Academy.</p>
+              <a href="imagenes/certificado-redes.pdf" target="_blank" class="btn-secundario"><i class="fas fa-external-link-alt"></i> Ver certificado</a>
+            </div>
+            <div class="certificado-item">
+              <img src="imagenes/cisco-logo.png" alt="Cisco Networking Academy">
+              <h4>IT Essentials</h4>
+              <p>Certificado otorgado por Cisco Networking Academy.</p>
+              <a href="imagenes/certificado-it.pdf" target="_blank" class="btn-secundario"><i class="fas fa-external-link-alt"></i> Ver certificado</a>
+            </div>
+            <div class="certificado-item">
+              <img src="imagenes/slim-logo.png" alt="Capacítate para el Empleo">
+              <h4>Programador Orientado a Objetos</h4>
+              <p>Certificado otorgado por la Fundación Slim - Capacítate para el Empleo.</p>
+              <a href="imagenes/certificado-java.pdf" target="_blank" class="btn-secundario"><i class="fas fa-external-link-alt"></i> Ver certificado</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="proyectos" class="section-proyectos">
+    <div class="container">
+      <h2>Proyectos Destacados</h2>
+      <div class="proyectos-container">
+        <div class="proyecto-card card-elegante">
+          <img src="imagenes/newjeans.png" alt="Página web NewJeans" class="proyecto-img">
+          <div class="proyecto-contenido">
+            <h4>Página web: NewJeans</h4>
+            <p>Página web creada para el grupo de K-Pop <b>NewJeans</b>, con diseño visual moderno y secciones interactivas para mostrar información, galería y contenido multimedia. Desarrollada con <b>HTML y CSS</b> como parte de mi portafolio personal.</p>
+            <div class="proyecto-tags"><span class="tag">HTML</span><span class="tag">CSS</span></div>
+            <a href="https://arantzalola.github.io/NewJeans" target="_blank" class="ver-proyecto btn-primario"><i class="fas fa-external-link-alt"></i> Ver proyecto</a>
+          </div>
+        </div>
+
+        <div class="proyecto-card card-elegante">
+          <img src="imagenes/komikomi.png" alt="App móvil KomiKomi" class="proyecto-img">
+          <div class="proyecto-contenido">
+            <h4>App móvil: KomiKomi</h4>
+            <p>Prototipo de aplicación móvil diseñada en <b>Figma</b> para facilitar la búsqueda de restaurantes cercanos, realizar reservaciones, dejar reseñas y obtener descuentos exclusivos. Enfocada en ofrecer una experiencia de usuario intuitiva y moderna.</p>
+            <div class="proyecto-tags"><span class="tag">Figma</span><span class="tag">Prototipo</span></div>
+            <a href="https://www.figma.com/proto/qZT6XadXjjFiIRwjlh7xaJ/KOMIKOMI?node-id=3-2" target="_blank" class="ver-proyecto btn-primario"><i class="fas fa-external-link-alt"></i> Ver proyecto</a>
+          </div>
+        </div>
+
+        <div class="proyecto-card card-elegante">
+          <img src="imagenes/redes.png" alt="Infraestructura de redes" class="proyecto-img">
+          <div class="proyecto-contenido">
+            <h4>Infraestructura de redes</h4>
+            <p>Proyecto académico desarrollado en <b>Cisco Packet Tracer</b> sobre la infraestructura de red de la <b>Universidad Politécnica de Sinaloa</b>. Incluye diseño topológico, configuración de routers, switches y verificación de conectividad.</p>
+            <div class="proyecto-tags"><span class="tag">Cisco</span><span class="tag">Redes</span></div>
+            <a href="imagenes/proyectoredes.pkt" download class="ver-proyecto btn-primario"><i class="fas fa-download"></i> Descargar proyecto</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="section-contacto">
+    <div class="container">
+      <h2>Contacto</h2>
+      <div class="contacto-info-centrada">
+        <h3>¡Hablemos!</h3>
+        <p>¿Tienes un proyecto en mente? Me encantaría escucharte y colaborar contigo.</p>
+        <div class="info-contacto-grid">
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <div class="info-texto">
+              <span class="info-label">Email</span>
+              <span class="info-valor">
+                <a href="mailto:arantzals@outlook.com">arantzals@outlook.com</a><br>
+                <a href="mailto:2023030578@upsin.edu.mx">2023030578@upsin.edu.mx</a>
+              </span>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <i class="fas fa-phone"></i>
+            <div class="info-texto">
+              <span class="info-label">Teléfono</span>
+              <span class="info-valor"><a href="tel:+526691900096">+52 669 190 0096</a></span>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="info-texto">
+              <span class="info-label">Ubicación</span>
+              <span class="info-valor">Mazatlán, Sinaloa, México</span>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <i class="fab fa-linkedin"></i>
+            <div class="info-texto">
+              <span class="info-label">LinkedIn</span>
+              <span class="info-valor"><a href="https://www.linkedin.com/in/arantzals" target="_blank">linkedin.com/in/arantzals</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h3>Arantza Lizárraga</h3>
+          <p>Desarrolladora de Software</p>
+        </div>
+        <div class="footer-links">
+          <a href="#inicio">Inicio</a>
+          <a href="#sobre-mi">Sobre mí</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/in/arantzals" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/arantzals" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Arantza Lizárraga. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
